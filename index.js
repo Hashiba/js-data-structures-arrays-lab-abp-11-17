@@ -78,3 +78,12 @@ removeLastDriver();
 
 //console.log("the size of newDrivers after removeLastDriver is "+ removeLastDriver().lenght);
 //console.log("newDrivers[]: " + removeLastDriver());
+
+function removeFirstDriver(){
+
+  //const newDrivers = drivers.slice(0, drivers.lenght -1);
+
+  return drivers.slice(1, drivers.length);
+}
+
+removeFirstDriver();
