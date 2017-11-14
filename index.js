@@ -36,10 +36,13 @@ console.log("drivers[]: " + drivers);
 
 function destructivelyRemoveFirstDriver(){
 drivers.unshift();
-  
+
 }
 
 destructivelyRemoveFirstDriver();
+
+console.log("the size of drivers after destructivelyRemoveFirstDriver is "+ drivers.length);
+console.log("drivers[]: " + drivers);
 
 drivers.length = 0;
 
