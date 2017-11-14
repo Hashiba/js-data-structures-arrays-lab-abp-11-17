@@ -44,6 +44,6 @@ destructivelyRemoveFirstDriver();
 console.log("the size of drivers after destructivelyRemoveFirstDriver is "+ drivers.length);
 console.log("drivers[]: " + drivers);
 
-//drivers.length = 0;
+drivers.length = 0;
 
-//drivers.push('Milo', 'Otis', 'Garfield');
+drivers.push('Milo', 'Otis', 'Garfield');
