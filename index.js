@@ -64,8 +64,8 @@ return newDrivers;
 
 }
 
-console.log("the size of drivers after prependDriver is "+ drivers.length);
-console.log("drivers[]: " + drivers);
+console.log("the size of newDriversdrivers after prependDriver is "+ drivers.length);
+console.log("newDrivers[]: " + newDrivers);
 function removeLastDriver(){
 
   const newDrivers = drivers.slice(0, drivers.lenght -1);
@@ -73,5 +73,5 @@ function removeLastDriver(){
   return newDrivers;
 }
 
-console.log("the size of drivers after removeLastDriver is "+ drivers.length);
-console.log("drivers[]: " + drivers);
+console.log("the size of newDrivers after removeLastDriver is "+ newDrivers.length);
+console.log("newDrivers[]: " + newDrivers);
