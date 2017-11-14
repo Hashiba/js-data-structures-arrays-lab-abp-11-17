@@ -73,5 +73,5 @@ function removeLastDriver(){
   return newDrivers;
 }
 
-console.log("the size of newDrivers after removeLastDriver is "+ newDrivers.length);
+console.log("the size of newDrivers after removeLastDriver is "+ removeLastDriver().lenght);
 console.log("newDrivers[]: " + newDrivers);
