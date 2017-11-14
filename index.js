@@ -66,6 +66,7 @@ return newDrivers;
 
 console.log("the size of drivers after prependDriver is "+ drivers.length);
 console.log("drivers[]: " + drivers);
+
 function removeLastDriver(){
 
   const newDrivers = drivers.slice(0, drivers.lenght -1);
