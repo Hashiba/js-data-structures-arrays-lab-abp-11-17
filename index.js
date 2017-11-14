@@ -23,7 +23,7 @@ destructivelyPrependDriver('Bob');
 drivers.shift();
 
 function destructivelyRemoveLastDriver(){
-drivers.pop()
+drivers.pop();
 }
 
 destructivelyRemoveLastDriver();
