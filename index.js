@@ -8,6 +8,10 @@ function destructivelyAppendDriver(name){
 destructivelyAppendDriver('Ralph');
 drivers.pop();
 
+drivers.length = 0;
+
+drivers.push('Milo', 'Otis', 'Garfield');
+
 function destructivelyPrependDriver(name){
   drivers.unshift(name);
 
