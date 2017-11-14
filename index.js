@@ -47,3 +47,12 @@ console.log("drivers[]: " + drivers);
 drivers.length = 0;
 
 drivers.push('Milo', 'Otis', 'Garfield');
+
+function appendDriver(name){
+
+const newDrivers = ['Broom', ...drivers];
+return newDrivers;
+  
+}
+
+appendDriver('Broom');
