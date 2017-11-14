@@ -27,6 +27,9 @@ drivers.pop()
 }
 
 destructivelyRemoveLastDriver();
+drivers.length = 0;
+
+drivers.push('Milo', 'Otis', 'Garfield');
 
 console.log("the size of drivers after destructivelyRemoveLastDriver is "+ drivers.length);
 console.log("drivers[]: " + drivers);
